@@ -46,7 +46,7 @@ export default function Navbar() {
             <div className="bg-gradient-to-r bg-yellow-400  rounded-lg shadow-md">
               <img src={logo} className='w-14 h-10 object-cover p-2 '></img>
             </div>
-            <span className="text-2xl font-bold text-white drop-shadow-lg">GB Taxi</span>
+            <span className="text-2xl font-bold text-white drop-shadow-lg">Sri Lankan Taxi Drivers</span>
           </Link>
 
           {/* Desktop Navigation */}

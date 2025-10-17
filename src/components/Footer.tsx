@@ -14,7 +14,7 @@ export default function Footer() {
     <div className="bg-yellow-400 p-2 rounded-full mr-3">
       <img src={logo} alt="TaxiGo Logo" className="h-10 w-auto" />
     </div>
-    <span className="text-2xl font-bold text-white">GB<span className='text-yellow-500 px-1'>Taxi</span></span>
+    <span className="text-xl font-bold text-white">Sri Lankan<span className='text-yellow-500 px-1'>Taxi Drivers</span></span>
   </div>
   <p className="text-slate-400 leading-relaxed">
     Your trusted partner for safe, reliable, and comfortable taxi and airport transfer services. Available 24/7 for all your travel needs.
