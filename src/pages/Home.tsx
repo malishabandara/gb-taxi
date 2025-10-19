@@ -1,5 +1,6 @@
 import { Clock, Plane, Shield, Timer } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { BookingSection } from '../components/BookingSection';
 import Carousel from '../components/Carousel';
 import VehicleCard from '../components/VehicleCard';
 import { vehicles } from '../data/mockData';
@@ -8,7 +9,10 @@ export default function Home() {
   return (
     <div>
       <Carousel />
-
+<div className="container mx-auto py-12 px-4">
+        {/* Add the booking section here */}
+        <BookingSection />
+      </div>
       <section className="py-20 bg-slate-900">
   <div className="container mx-auto px-6">
     <div className="text-center mb-16">
