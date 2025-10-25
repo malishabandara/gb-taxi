@@ -54,6 +54,7 @@ Hi! I'd like to get more information about this booking.`;
     const whatsappUrl = `https://wa.me/94720532077?text=${encodeURIComponent(
       message
     )}`;
+    // 0720532077
     window.open(whatsappUrl, '_blank');
   };
 

@@ -20,14 +20,14 @@ export default function VehicleModal({ vehicle, onClose }: VehicleModalProps) {
     // Validation updated to include new fields for all bookings
     if (!startDate || !endDate) {
       setErrorMessage(
-        '⚠️ Please select both start and end dates before booking.'
+        ' Please select both start and end dates before booking.'
       );
       return;
     }
 
     if (!pickupLocation || !dropoffLocation) {
       setErrorMessage(
-        '⚠️ Please fill in both "From" and "To" locations.'
+        'Please fill in both "From" and "To" locations.'
       );
       return;
     }
@@ -47,7 +47,7 @@ Start Date: ${startDate}
 End Date: ${endDate}
 Capacity: ${vehicle.capacity} Passengers${airportServiceMessage}`;
 
-    const whatsappUrl = `https://wa.me/${encodeURIComponent(
+    const whatsappUrl = `https://wa.me/94720532077?text=${encodeURIComponent(
       message
     )}`;
     window.open(whatsappUrl, '_blank');
