@@ -23,8 +23,10 @@ export default function Navbar() {
   // Navigation items for mapping
   const navItems = [
     { path: '/', label: 'Home' },
-    { path: '/taxi-services', label: 'Taxi Services' },
-    { path: '/airport-services', label: 'Airport Services' },
+    { path: '/taxi-services', label: 'Airport and Taxi Services' },
+    {path:'/tours',label :'Tour Packages'},
+
+    // { path: '/airport-services', label: 'Airport Services' },
     { path: '/about', label: 'About Us' },
     { path: '/contact', label: 'Contact' },
   ];

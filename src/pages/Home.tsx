@@ -9,10 +9,13 @@ export default function Home() {
   return (
     <div>
       <Carousel />
-<div className="container mx-auto py-12 px-4">
+      <section className='bg-slate-500'>
+        <div className="container mx-auto py-12 px-4">
         {/* Add the booking section here */}
         <BookingSection />
       </div>
+      </section>
+
       <section className="py-20 bg-slate-900">
   <div className="container mx-auto px-6">
     <div className="text-center mb-16">
