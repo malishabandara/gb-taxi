@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Carousel />
-      <section className='bg-slate-500'>
+      <section className='bg-slate-800'>
         <div className="container mx-auto py-12 px-4">
         {/* Add the booking section here */}
         <BookingSection />
@@ -159,12 +159,7 @@ export default function Home() {
         </div>
 
         <div className="text-center">
-          <Link
-            to="/airport-services"
-            className="inline-block bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg transform hover:scale-105"
-          >
-            Learn More About Airport Services
-          </Link>
+       
         </div>
       </div>
     </section>
