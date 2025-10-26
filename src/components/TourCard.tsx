@@ -9,10 +9,7 @@ interface TourCardProps {
 // A small helper component for the vehicle icons
 const VehicleIcon = ({ type }: { type: string }) => {
   if (type === 'Van') {
-    // Using Sparkles as a placeholder for Van
-    return (
-      <Bus className="w-3 h-3 text-yellow-400" /> 
-    );
+    return <Bus className="w-3 h-3 text-yellow-400" />;
   }
   // Default to Car icon
   return <Car className="w-3 h-3 text-yellow-400" />;
@@ -20,7 +17,7 @@ const VehicleIcon = ({ type }: { type: string }) => {
 
 export default function TourCard({ package: pkg, onBookNow }: TourCardProps) {
   return (
-    <div className="flex flex-col bg-slate-800 rounded-2xl border border-slate-700 overflow-hidden transition-all duration-300 hover:border-yellow-500 hover:-translate-y-2 group">
+    <div className="flex flex-col bg-slate-800 rounded-2xl border border-slate-700 overflow-hidden transition-all duration-300 hover:border-yellow-500 hover:-translate-y-2 group h-full">
       {/* --- Image & Badges --- */}
       <div className="relative w-full h-52">
         <img
