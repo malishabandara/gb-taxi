@@ -36,8 +36,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/airport-services" className="flex items-center text-slate-300 hover:text-yellow-400 transition-colors">
-                  <ChevronRight className="w-4 h-4 mr-2" /> Airport Services
+                <Link to="/tours" className="flex items-center text-slate-300 hover:text-yellow-400 transition-colors">
+                  <ChevronRight className="w-4 h-4 mr-2" />Tours
                 </Link>
               </li>
               <li>
@@ -88,8 +88,8 @@ export default function Footer() {
             © {new Date().getFullYear()}  NextGen Web Works. All rights reserved. +94 78 723 9394.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0 text-sm text-slate-500">
-            <Link to="/privacy-policy" className="hover:text-yellow-400 transition-colors">Privacy Policy</Link>
-            <Link to="/terms-of-service" className="hover:text-yellow-400 transition-colors">Terms of Service</Link>
+            <p className="hover:text-yellow-400 transition-colors">Privacy Policy</p>
+            <p  className="hover:text-yellow-400 transition-colors">Terms of Service</p>
           </div>
         </div>
       </div>
