@@ -1,4 +1,4 @@
-import { ArrowRight, Bus, Car, Clock } from 'lucide-react';
+import { ArrowRight, Bus, Car, Clock, Info } from 'lucide-react'; // Added 'Info'
 import { TourPackage } from '../data/packages';
 // import pht from '../public/packages/1-1.jpg';
 interface TourCardProps {
@@ -68,7 +68,18 @@ export default function TourCard({ package: pkg, onBookNow }: TourCardProps) {
         {/* Spacer to push button to bottom */}
         <div className="flex-grow"></div>
 
-        {/* Book Now Button */}
+        {/* --- View More Button (NEW) --- */}
+        <a
+          href="https://www.gbtourstravels.com/packages"
+          target="_blank" // Opens link in a new tab
+          rel="noopener noreferrer"
+          className="w-full bg-slate-700 hover:bg-slate-600 text-slate-100 font-bold py-3 rounded-lg transition-colors duration-300 flex items-center justify-center gap-2 mb-3"
+        >
+          <Info className="w-4 h-4" />
+          View More
+        </a>
+
+        {/* --- Book Now Button --- */}
         <button
           onClick={onBookNow}
           className="w-full bg-yellow-500 hover:bg-yellow-400 text-slate-900 font-bold py-3 rounded-lg transition-colors duration-300 flex items-center justify-center gap-2"
